@@ -1,0 +1,12 @@
+Package: emt.paisseon.xinamine
+Name: Xinamine
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Add Xina tweak compatibility to Dopamine
+Maintainer: Sudo + Paisseon
+Author: Sudo + Paisseon
+Section: System
+Depends: ellekit, oldabi | cy+cpu.arm64, firmware (>= 15.0)
+SileoDepiction: https://paisseon.github.io/depictions/Xinamine.json
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Xinamine.json&name=Xinamine&dev=Paisseon
+Icon: https://paisseon.github.io/icons/Xinamine.png
