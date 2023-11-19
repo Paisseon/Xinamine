@@ -30,6 +30,7 @@ struct Xinamine {
             ("/var/jb/etc/alternatives", "/var/alternatives"),
             ("/var/jb/Applications", "/var/jb/Xapps"),
             ("/var/jb/var/mobile/Library", "/var/jb/UsrLb"),
+            ("/var/jb/var/mobile", "/var/jb/vmo"),
             ("/var/jb/usr/bin/bash", "/var/bash")
         ]
         
