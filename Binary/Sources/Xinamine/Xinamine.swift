@@ -20,14 +20,18 @@ struct Xinamine {
             ("/var/jb/usr/libexec", "/var/libexec"),
             ("/var/jb/System", "/var/sy"),
             ("/var/jb/Library", "/var/LIY"),
+            ("/var/jb/usr/bin", "/var/bin"),
             ("/var/jb/usr/sbin", "/var/sbin"),
             ("/var/jb/usr/cache", "/var/cache"),
+            ("/var/jb/usr/local", "/var/local"),
             ("/var/jb/usr/share", "/var/share"),
+            ("/var/jb/etc", "/var/etc"),
             ("/var/jb/etc/dpkg", "/var/dpkg"),
             ("/var/jb/etc/alternatives", "/var/alternatives"),
             ("/var/jb/Applications", "/var/jb/Xapps"),
-            ("/var/jb/User/Library", "/var/jb/UsrLb"),
-            ("/var/jb/bin/bash", "/var/bash")
+            ("/var/jb/var/mobile/Library", "/var/jb/UsrLb"),
+            ("/var/jb/var/mobile", "/var/jb/vmo"),
+            ("/var/jb/usr/bin/bash", "/var/bash")
         ]
         
         _ = symlinks.map { symlink($0.0, $0.1) }
